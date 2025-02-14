@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./pokeball.png" sizes="48x48" type="image/png">
+    <title>RPG - Dragon Repeller</title>
     <link rel="stylesheet" href="./style.css">
-    <title>Role Playing Game</title>
 </head>
 <body>
-<p>Hallo, Welt!</p>
+
+    <div id="game">
+        <div id="stats">
+            <span class="stat">XP: 0</span>
+            <span class="stat">Health: 100</span>
+            <span class="stat">Gold: 50</span>
+        </div> <!-- Zeigt Spieler-Statistiken (XP, Leben, Gold). -->
+        <div id="controls"></div> <!-- Enthält Buttons zur Steuerung (z. B. Angreifen, Kaufen). -->
+        <div id="monsterStats"></div> <!-- Zeigt Monster-Statistiken (Lebenspunkte, Gegnername). -->
+        <div id="text"></div> <!-- Zeigt allgemeine Spielnachrichten (z. B. Kampfstatus). -->
+    </div>
+
     <script src="./csript.js"></script>
 </body>
 </html>
